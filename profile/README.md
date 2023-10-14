@@ -1,6 +1,6 @@
 # IFI6229.DT Rakenduste programmeerimise kursus
 
-## "Code what you ❤️, so you will ❤️ to code" 
+## Code what you ❤️, so you will ❤️ to code
 **Projekti tegemiseks jagan mantrat, mille järgi mina elan ehk liituda projektiga, mis teid kindlasti kõnetab ja meeldib ja siis jätkuvalt on suurem ka tõenäosus, et naudite programmeerimist**
 
 * Selleks lõin Discorids kanali `#project-joining` kuhu te võite pakkuda oma ideid, mis endale meeldib ja ehk saate endale tiimikaaslasi. 
