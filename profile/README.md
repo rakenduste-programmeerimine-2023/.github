@@ -10,6 +10,13 @@
 
 ℹ️ **Võite ka täiesti oma liikmetega eraldi teha projekti, mõte on siis lihtsalt selles, et pakkuda ka alternatiiv viisi kuidas meeskondi moodustada.**
 
+## Projekti minimaalsed nõuded
+
+* `Vähemalt 1 external API call` kuhugi teise serverisse, et midagi fetchida seal ja kuvada oma lehel
+* Projektis peaks olema `authenticated (protected) routes` ainult sisse logitud kasutajate jaoks, kus sisse logimata midagi ei näe ja võib ka olla `public routes` kõikide jaoks
+* Abstraktne nõue, aga projektis peaks olema vähemalt `4 erinevat uut tabelit` kasutuses (Supabase)
+* Abstraktne nõue, aga projektis peaks olema vähemalt `5 erinevat lehekülge`, mille vahel saab navigeerida 
+
 ## 1. november on deadline projekti idee ja informatsiooni esitamiseks
 ‼️ **Selleks, et jätkata aine sooritamist on vaja alustada projektiga, tegemata jätmine tähendab aine läbi kukkumist. Ei pea ise esitama, aga peab olema kusagil projektis ja üks teist peab `#projects` kanalis esitama idee hiljemalt 1. novembril**
 * `Mis see tähendab?` Vaja olla 3 liikmelises meeskonnas, projekti pealkiri, idee kirjeldus on välja valitud ning koos autoritega (täisnimed + Discordi tagimine) esitatud #projects kanalisse.
