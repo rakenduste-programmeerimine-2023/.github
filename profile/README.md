@@ -50,13 +50,26 @@
 
 Kui teete commiti vastavalt issue lahendamiseks, siis kirjeldusse saate lisada näiteks `closes #number` ehk siis kui commiti ära pushida, siis issue läheb ka automaatselt kinni ja ei pea neid käsitsi handelima 🙂
 
+### Mis siis, kui 2. sprindi alguseks ei ole mitte midagi tehtud? Siis on järeleksamile sooritus 🙂
+* See on okei, kui te ei tee põhieksamiks projekti valmis, saate ka kohe planeerida järeleksamiks - minul isiklikult vahet ei ole, põhiline, et te tehtud saate ja õppida saate 🙂
+* Kui tahate projektiideed muuta, siis vaja uuesti submittida uus idee võimalike uute inimestega ja samuti vaja minu rohelist linnukest. Iseseisvalt alustatud projekti, millega pole kooskõlastatud minuga ega tehtud ka wireframe alguses ei aktsepteeri eksamil 🙂
+* Järeleksam on `17.01.2024` ja sprindi ajad (`4 milestone`-i) on siis `18.12-25.12`, `25.12-01.01`, `01.01-08.01`, `08.01-15.01`
+* Te võite iseenesest ka alustada järeleksamiks varem tööd, aga sprindid pange sellised paika, võimalik lihtsalt, et te lõpetate need issued varem ära, mis on määratud nendele sprintidele. Lihtsalt on vaja konkreetset planeerimist ja plaani järgi tegemist harjutada 🙂
+
+#### Vajadusel luua ka projekti backlog, et oleks paremini näha, kes mille kallal töötab:
+* Võite oma repo peal testida `repo => Projects => linnukesest nool alla New Project => ükskõik millist soovite, aga näite tegin välja Team Backlog`
+* Saate issued siduda ka projektiga, siis saate boardil näha, millega teegi tegeleb
+* Kui alustate issuega tegemist, assignige endale ja liigutage `In Progress` alla
+* Kui lisate commitile ka `closes #number`, siis liigutatakse ise Done veergu, kui olete lõpetanud sellega pärast commiti vastu võtmist
+
 #### Alati tuleb koodi commitida main branchi läbi pull requestide ehk otse main branchi me ei commiti 🙂
 
-1. Loote main branchi põhjal uue (feature) branchi
-2. Teete oma muudatused ainult sinna brachi, peamine töö toimub seal. Teete git add, git commit ja git push selle branchi põhjal.
-3. Kui viimased muudatused valmis ja üles pushitud, luua ```Pull request``` (kui see lahendab mingeid ticketeid, kirjutada ka ```closes #number```)
-4. Teie projektikaaslane peab vastu võtma teie PR-i (ise vastu ei võta) ja soovitavalt ```Rebase and merge```. [Rohkem infot siit](https://rietta.com/blog/github-merge-types/)
-5. Võimalikud konfliktid on vaja ka lahendada, et mis kood jääb peale ja see on ka osa õppimisest, kuidas seda lahendada 🙂
+1. Loote main branchi põhjal uue (feature) branchi.
+2. Feature branchi stiil võiks olla: `feature/issue-42/create-new-button-component` (Rohkem infot: https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4)
+3. Teete oma muudatused ainult sinna brachi, peamine töö toimub seal. Teete git add, git commit ja git push selle branchi põhjal.
+4. Kui viimased muudatused valmis ja üles pushitud, siis minna näiteks GitHubi branchi ja seal näha võimalust luua ```Pull request``` (kui see lahendab mingeid ticketeid, kirjutada ka ```closes #number```)
+5. Teie projektikaaslane peab vastu võtma teie PR-i (ise vastu ei võta) ja soovitavalt ```Rebase and merge```. [Rohkem infot siit](https://rietta.com/blog/github-merge-types/)
+6. Võimalikud konfliktid on vaja ka lahendada, et mis kood jääb peale ja see on ka osa õppimisest, kuidas seda lahendada 🙂
 
 #### Main branchile panen protectioni peale järgmiste nõuetega:
 - Require approvals - 1
@@ -67,7 +80,10 @@ Kui teete commiti vastavalt issue lahendamiseks, siis kirjeldusse saate lisada n
 #### Kuidas commitida?
 * Tehke väikseid (kompaktseid) committe ja tihemini 
 * **➡️ Tutvuda: https://www.conventionalcommits.org/en/v1.0.0/**
-* Hakata kasutama conventioni järgi committe projektis (nt `feat: add Login component`) `Message`vormi kohta info: https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#subject
+* Hakata kasutama conventioni järgi committe projektis (nt `feat: add Login component`)
+* `Type`i võimalikud valikud: https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type 
+* Usun, et te kasutate peamiselt `feat`, `fix`, `refactor` ja `style` 🙂
+* `Message`vormi kohta info: https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#subject
 * Rohkem infot: https://blogs.halodoc.io/code-version-best-practices-with-clean-commit-formats/
 
 #### Kuidas deployda?
