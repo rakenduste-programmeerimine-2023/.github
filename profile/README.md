@@ -91,6 +91,10 @@ Kui teete commiti vastavalt issue lahendamiseks, siis kirjeldusse saate lisada n
 * Deploymiseks vaja forkida grupitöö enda isikliku konto alla ja kasutada enda isiklikku repot läbi Verceli, et deployda 🙂 
 * **Kuidas?** ➡️ Lugeda ja tutvuda: https://stefanbauer.me/articles/how-to-keep-your-git-fork-up-to-date ja https://www.atlassian.com/git/tutorials/git-forks-and-upstreams
 
+#### Supabase local development
+* Võite iseenesest kasutada production andmebaasi, aga see ei ole üldse hea lahendus, saate ka õppida oma võimalike tulevaste projektide jaoks täielikult lokaalset arendust
+* Selleks lugege ja installeerige endale Supabase lokaalselt: https://supabase.com/docs/guides/cli/local-development
+
 ## Üldinfo
 
 ### Eksami ajad
