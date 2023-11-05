@@ -72,9 +72,10 @@ Kui teete commiti vastavalt issue lahendamiseks, siis kirjeldusse saate lisada n
 6. Võimalikud konfliktid on vaja ka lahendada, et mis kood jääb peale ja see on ka osa õppimisest, kuidas seda lahendada 🙂
 
 #### Main branchile panen protectioni peale järgmiste nõuetega:
+- Require a pull request before merging
 - Require approvals - 1
 - Require review from Code Owners 
-- Require approval from someone other than the last pusher 
+- Require approval of the most recent reviewable push
 - Require conversation resolution before merging
 
 #### Kuidas commitida?
